@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css" type="text/css">
+        <script type="text/javascript" src="js/station.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="js/metro.js" defer></script>
+        <title>Home Page</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>MetroHelp</h1>
+        </header>
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="documentation.html">Documentation</a></li>     
+            </ul>
+        </nav>
+        <div class="info-box">
+            <div id="stationSelect">
+                <form name="stations" id="stationForm" onsubmit="selectedStation(); return false">
+                    <label for="station"><h2>Select a Station:</h2></label>
+                    <select id="station" name="station">     
+                    </select>
+                    <br>
+                    <br>
+                    <input class="button-74" id="submit" type="submit" class="submit" value="Submit">
+                </form>
+            </div>
+            <br>
+            <div id="stationInformation">
+                <h3>Station Information:</h3>
+                <div id="stationAddress">Selected station information will appear here.</div>
+                <div id="stationTimes"></div>
+            </div>
+            <br>
+            <div id="stationAlert">
+                <h3>Station Alert Information:</h3>
+                <div id="elevators">Any alerts for your selected station will appear here.</div>
+            </div>
+        </div>
+        <div class="incident_box">
+            <div id="sidebar"><h3>System Alert Information</h3></div>
+        </div>
+
+
+
+        <h1>Comment Box</h1>
+        <form>
+            <input type="text" id="name" placeholder="Name" required>
+            <br>
+            <textarea id="comment" placeholder="What's on your mind?" required></textarea>
+            <br>
+            <input type="submit" name="Submit" id="post">
+            <hr>
+        </form>
+    </body>
+</html>

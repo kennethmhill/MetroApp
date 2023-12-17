@@ -1,0 +1,155 @@
+body {
+    background-color: #EBF2FA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: left;
+    background-color: #05668D;
+    color: white;
+    margin: 5px 0px 5px 0px;
+    padding: 0em 0em 0em 1em;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #A5BE00;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    font-size: 25px;
+}
+
+.button-74 {
+    background-color: #EBF2FA;
+    border: 2px solid #293B16;
+    border-radius: 30px;
+    box-shadow: #293B16 4px 4px 0 0;
+    color: #293B16;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+  .button-74:hover {
+    background-color: #fff;
+}
+  
+  .button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+}
+
+select {
+    font-size: 20px;
+    width: 400px;
+}
+
+#stationSelect {
+    background-color: #679436;
+    border: 8px;
+    border-style: outset;
+    border-color: #679436;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px 15px 20px 15px;
+    margin-top: 2px;
+}
+
+#sidebar {
+    background-color: #6EA0C4;
+    border: 8px;
+    border-color: #6EA0C4;
+    border-radius: 5px;
+    padding: 5px 15px 20px 15px;
+    margin-top: 2px;
+    border-style: outset;
+    border-color: 80A39F;
+    font-size: 22px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column; 
+    float: left;  
+    width: 60%;
+}
+
+.incident_box {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 30%;
+}
+
+#stationAlert {
+    background-color: #679436;
+    border: 8px;
+    border-color: #679436;
+    border-radius: 5px;
+    padding: 5px 15px 20px 15px;
+    margin-top: 2px;
+    border-style: outset;
+    border-color: 80A39F;
+    font-size: 22px;
+}
+
+#stationInformation {
+    background-color: #A5BE00;
+    border: 8px;
+    border-style: outset;
+    border-color: #A5BE00;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 5px 15px 20px 15px;
+    margin-top: 2px;
+}
+
+#about {
+    background-color: #6EA0C4;
+    border: 8px;
+    border-color: #6EA0C4;
+    border-radius: 5px;
+    padding: 5px 15px 20px 15px;
+    margin-top: 2px;
+    border-style: outset;
+    border-color: 80A39F;
+    font-size: 22px;
+}
+
+
+table, th, td  {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+#error {
+    background-color: rgb(209, 81, 81);
+    color: white;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 5px;
+}
