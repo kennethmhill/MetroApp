@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.sendFile('public/index.html', { root: __dirname })
 })
 
+app.get('/about', (req, res) => {
+    res.sendFile('public/about.html', { root: __dirname })
+})
+
 app.get('/comments', async (req, res) => {
     const {data, error} = await supabase.from(db).select();
     if(error) console.log(error)
